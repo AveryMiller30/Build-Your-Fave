@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+li {
+    display: inline-block;
+    padding: 5em;
+}
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    
+}
+.Search {
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 500px;
+    height: 60px;
+}
+
+.box1 {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 5em;
+    padding: 10em;
+    height: 30em;
+    position: relative;
+    
+}
+.box1 > h1 {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: ;
+    font-size: xx-large;
+}
+.box1 > button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+}
+.box2 {
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 5em;
+    padding: 10em;
+    height: 30em;
+    position: relative;
+    background-image: url(./assets/geran-de-klerk-WJkc3xZjSXw-unsplash.jpg);
+}
+.box2 > h1 {
+    text-align: center;
+    padding-top: 4em;
+    color: white;
+}
+.box2 > button {
+    margin: 0;
+    position: absolute;
+    align-items: center;
+    left: 46%;
+}
+h1 {
+    color: white;
+    padding-left: 2em;
+}
+.flex-container {
+    background-color:;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5em;
+    height: 30em;
+}
+.branson, .russel, .manhattan, .ponca {
+    padding-top: 15em;
+    color: white;
+    width: 350px;
+    text-align: left;
+    background-image: linear-gradient(
+        to bottom,
+        #0e5c07 0%,
+        #0e5c07 50%,
+        #ae1c1c 50%,
+        #ae1c1c 100%
+    );
+}
